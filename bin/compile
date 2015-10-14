@@ -1,0 +1,9 @@
+#!/bin/sh
+
+#fails on first error
+set -e
+cd $1
+
+touch .env.production
+
+echo "API_VERSION=$SOURCE_VERSION"  > .env.production

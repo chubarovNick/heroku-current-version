@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "Start dumping SOURCE_VERSION"
+
+exit 0
